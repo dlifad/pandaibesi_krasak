@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peta Pandai Besi Dusun Krasak</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section id="peta" class="section first-section">
+        <div class="section-heading">
+          <p class="label">Peta Interaktif</p>
+          <h2>Peta Pandai Besi Dusun Krasak</h2>
+        </div>
+
+        <div class="map-card">
+          <div class="map-wrapper" id="mapWrapper">
+            <img
+              src="assets/img/peta-dusun-placeholder.svg"
+              alt="Peta UMKM Pandai Besi Dusun Krasak"
+              class="map-image"
+            />
+
+            <div id="mapPoints"></div>
+
+            <a href="#daftar-umkm" class="qr-box" title="Buka daftar UMKM">
+              <img src="assets/img/qr-placeholder.svg" alt="QR daftar UMKM" />
+              <span>Scan daftar UMKM</span>
+            </a>
+          </div>
+
+          <p class="map-note">
+            Catatan: gambar peta masih placeholder. Ganti file
+            <strong>assets/img/peta-dusun-placeholder.svg</strong>
+            dengan peta hasil QGIS atau desain final.
+          </p>
+        </div>
+      </section>
+
+      <section id="daftar-umkm" class="section">
+        <div class="section-heading">
+          <p class="label">Daftar Lokasi</p>
+          <h2>Pandai Besi Dusun Krasak</h2>
+        </div>
+
+        <div class="search-box">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Cari nama pemilik, usaha, lokasi, atau produk..."
+          />
+        </div>
+
+        <div class="umkm-list" id="umkmGrid"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Made with coffee and dedication</p>
+      <p>KKN 84 Kelompok 397 UPN "Veteran" Yogyakarta</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
