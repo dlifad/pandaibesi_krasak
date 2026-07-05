@@ -419,16 +419,21 @@ a {
 
 /* Footer */
 .footer {
-  text-align: center;
-  padding: 24px 16px;
-  background: #2f2f2f;
+  margin-top: 40px;
+  padding: 18px 16px;
+  background: #111827;
   color: white;
+  text-align: center;
 }
 
 .footer p {
-  margin: 4px 0;
-  color: #dddddd;
-  font-size: 14px;
+  margin: 3px 0;
+  font-size: 13px;
+  color: #e5e7eb;
+}
+
+.footer p:first-child {
+  font-weight: 600;
 }
 
 /* Responsive */

@@ -14,7 +14,7 @@ function renderDetail() {
   if (!id || !umkm) {
     detailContainer.innerHTML = `
       <div class="not-found">
-        <h1>Data UMKM tidak ditemukan</h1>
+        <h1>Data Pandai Besi tidak ditemukan</h1>
         <p>UMKM dengan ID tersebut belum tersedia.</p>
         <a href="index.html#daftar-umkm" class="btn">Kembali ke Daftar UMKM</a>
       </div>
@@ -53,7 +53,7 @@ function renderDetail() {
 
         <div class="detail-actions">
           <a href="${linkWA}" target="_blank" class="btn">Hubungi Sekarang</a>
-          <a href="${umkm.gmaps}" target="_blank" class="btn secondary">Buka Google Maps</a>
+          <a href="${umkm.gmaps}" target="_blank" class="btn secondary">Google Maps</a>
         </div>
       </div>
     </div>
