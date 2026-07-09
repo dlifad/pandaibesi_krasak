@@ -686,31 +686,41 @@ a {
 /* Footer */
 .footer {
   margin-top: 40px;
-  padding: 28px 16px;
+  padding: 34px 16px;
   background: var(--primary);
   color: white;
   text-align: center;
 }
 
 .footer p {
-  margin: 0;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.footer p:first-child {
+.footer-title {
   font-family: var(--font-footer-display);
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 700;
   color: white;
   line-height: 1.4;
 }
 
-.footer p:last-child {
-  margin-top: 8px;
+.footer-address {
+  max-width: 760px;
+  margin-top: 10px;
   font-family: var(--font-footer-main);
   font-size: 14px;
   font-weight: 500;
   color: #e7e2d9;
-  line-height: 1.5;
+  line-height: 1.6;
+}
+
+.footer-copy {
+  margin-top: 14px !important;
+  font-family: var(--font-footer-main);
+  font-size: 13px;
+  font-weight: 600;
+  color: #cfc7bb;
 }
 
 .detail-headline {

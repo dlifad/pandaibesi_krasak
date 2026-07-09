@@ -3,7 +3,7 @@ const dataUMKM = [
     id: 1,
     noUrut: 1,
     nama: "MUHAMAD MUHSON",
-    lokasi: "Dusun Krasak, RT 03/RW 03",
+    lokasi: "Dusun Krasak RT 01/RW 02",
     pekerjaan: "Pandai Besi",
     jenisProduksi: "Cangkul",
     rt: "01",
