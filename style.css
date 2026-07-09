@@ -786,6 +786,52 @@ a {
   cursor: pointer;
 }
 
+.map-image {
+  cursor: zoom-in;
+}
+
+.map-point {
+  cursor: pointer;
+}
+
+.map-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.map-lightbox.show {
+  display: flex;
+}
+
+.map-lightbox img {
+  max-width: 100%;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 10px;
+  background: white;
+}
+
+.map-lightbox-close {
+  position: fixed;
+  top: 18px;
+  right: 20px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 50%;
+  background: white;
+  color: #111111;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+}
+
 /* Responsive */
 @media (max-width: 820px) {
   .umkm-list-item {

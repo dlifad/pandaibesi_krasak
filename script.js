@@ -1,4 +1,3 @@
-const mapPoints = document.getElementById("mapPoints");
 const umkmGrid = document.getElementById("umkmGrid");
 const searchInput = document.getElementById("searchInput");
 
@@ -27,24 +26,36 @@ function getJenisProduksiText(data) {
   return data.jenisProduksi;
 }
 
-function renderMapPoints() {
-  if (!mapPoints) return;
+const mapImage = document.getElementById("mapImage");
+const mapLightbox = document.getElementById("mapLightbox");
+const mapLightboxImage = document.getElementById("mapLightboxImage");
+const mapLightboxClose = document.getElementById("mapLightboxClose");
 
-  mapPoints.innerHTML = "";
+if (mapImage && mapLightbox && mapLightboxImage && mapLightboxClose) {
+  mapImage.addEventListener("click", function () {
+    mapLightboxImage.src = this.src;
+    mapLightbox.classList.add("show");
+    document.body.style.overflow = "hidden";
+  });
 
-  const sortedData = getSortedData(dataUMKM);
+  function closeMapLightbox() {
+    mapLightbox.classList.remove("show");
+    mapLightboxImage.src = "";
+    document.body.style.overflow = "";
+  }
 
-  sortedData.forEach((pandaiBesi) => {
-    const link = document.createElement("a");
+  mapLightboxClose.addEventListener("click", closeMapLightbox);
 
-    link.href = `detail.html?id=${pandaiBesi.id}`;
-    link.className = "map-point";
-    link.style.top = pandaiBesi.posisiTop;
-    link.style.left = pandaiBesi.posisiLeft;
-    link.title = pandaiBesi.nama;
-    link.textContent = pandaiBesi.noUrut || pandaiBesi.id;
+  mapLightbox.addEventListener("click", function (e) {
+    if (e.target === mapLightbox) {
+      closeMapLightbox();
+    }
+  });
 
-    mapPoints.appendChild(link);
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") {
+      closeMapLightbox();
+    }
   });
 }
 
@@ -109,5 +120,4 @@ if (searchInput) {
   });
 }
 
-renderMapPoints();
 renderUMKMList();
