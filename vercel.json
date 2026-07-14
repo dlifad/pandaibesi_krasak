@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/peta-pandai-besi",
+      "destination": "/assets/peta/peta_pandai_besi.pdf"
+    }
+  ]
+}

@@ -15,7 +15,7 @@ const mapImage = document.getElementById("mapImage");
 
 if (mapImage) {
   mapImage.addEventListener("click", function () {
-    window.open("assets/peta/peta_pandai_besi.pdf", "_blank");
+    window.open("/peta-pandai-besi", "_blank");
   });
 }
 
