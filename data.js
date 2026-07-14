@@ -1,5 +1,5 @@
 const fotoDefault = [
-  "/assets/img/umkm-placeholder.svg",
+  "/assets/img/placeholder.webp",
 ];
 
 const dataUMKM = [
@@ -37,7 +37,7 @@ const dataUMKM = [
     jamOperasional: "07.00 - selesai",
     hariKerja: "Senin - Minggu",
     keteranganTambahan:
-      "Produksi alat pertanian, penjualannya ada yang jemput, yang bantu masarin anaknya",
+      "Produksi alat pertanian, penjualannya ada yang jemput, anaknya membantu masarin",
     foto: [
       "/assets/img/A_ROZAK/1.webp",
       "/assets/img/A_ROZAK/2.webp",
@@ -83,7 +83,7 @@ const dataUMKM = [
     medsosMarketplace: "whatsapp",
     jamOperasional: "08.00 - 16.00",
     hariKerja: "Senin - Minggu",
-    keteranganTambahan: "Pasar garung, bahan baku dari besi dan drum bekas",
+    keteranganTambahan: "Penjualan di Pasar Garung, bahan baku dari besi dan drum bekas",
     foto: [
       "/assets/img/WAHID_SALMAN/1.webp",
       "/assets/img/WAHID_SALMAN/2.webp",
@@ -105,7 +105,7 @@ const dataUMKM = [
     medsosMarketplace: "-",
     jamOperasional: "08.00 - 16.00",
     hariKerja: "Senin - Minggu",
-    keteranganTambahan: "Lengkap, karyawan banyak",
+    keteranganTambahan: "-",
     foto: [
       "/assets/img/MUSMAN/1.jpeg",
       "/assets/img/MUSMAN/2.jpeg",
@@ -161,7 +161,7 @@ const dataUMKM = [
     jamOperasional: "-",
     hariKerja: "Senin - Minggu",
     keteranganTambahan:
-      "Buat mesinnya, pisau rajang tembakau, ada distributornya sendiri, lg buat pisau rajang tembakau, buat mesin rokok",
+      "Membuat mesin, pisau rajang tembakau, dan mempunyai distributornya sendiri",
     foto: fotoDefault,
   },
   {
@@ -299,7 +299,7 @@ const dataUMKM = [
     jamOperasional: "06:00 - selesai",
     hariKerja: "Senin - Minggu",
     keteranganTambahan:
-      "Sesuai pesanan, bahan- bahannya impor dari luar negeri",
+      "Membuat sesuai pesanan dan bahan-bahannya impor dari luar negeri",
     foto: [
       "/assets/img/BASUKI/2.webp",
       "/assets/img/BASUKI/3.webp",
@@ -323,7 +323,7 @@ const dataUMKM = [
     jamOperasional: "07:00-13:00",
     hariKerja: "4-7 hari",
     keteranganTambahan:
-      "Ngiderin sendiri ke pasar semarang, banyuwangi, jawa timur",
+      "Ngiderin sendiri ke Pasar Semarang, Banyuwangi, dan Jawa Timur",
     foto: [
       "/assets/img/SUBHAN/1.webp",
       "/assets/img/SUBHAN/2.webp",
@@ -369,7 +369,7 @@ const dataUMKM = [
     jamOperasional: "07:00 - 13:00",
     hariKerja: "Senin - Minggu",
     keteranganTambahan:
-      "Pesenannya melalui telfon, request, masarinnya sampai ke muntilan",
+      "Pesenannya melalui telfon, request, masarinnya sampai ke Muntilan",
     foto: fotoDefault,
   },
   {
@@ -387,7 +387,7 @@ const dataUMKM = [
     jamOperasional: "09:00 - selesai",
     hariKerja: "Gak pasti",
     keteranganTambahan:
-      "Pesenannya ada di sekitar jateng kayak tulungagung, temanggung, magelang, barangnya impor dari luar negeri",
+      "Pesenannya ada di sekitar Jateng seperti Tulungagung, Temanggung, Magelang, dan barangnya impor dari luar negeri",
     foto: [
       "/assets/img/NOVI/1.webp",
       "/assets/img/NOVI/2.webp",
@@ -425,7 +425,7 @@ const dataUMKM = [
     koordinat: "-7.323194,109.915954",
     nomorHP: "08999913176",
     medsosMarketplace: "-",
-    jamOperasional: "Bebas, gak ada jam pasti",
+    jamOperasional: "Fleksibel",
     hariKerja: "-",
     keteranganTambahan: "-",
     foto: fotoDefault,
@@ -442,8 +442,8 @@ const dataUMKM = [
     koordinat: "-7.323304,109.915175",
     nomorHP: "081385881843",
     medsosMarketplace: "-",
-    jamOperasional: "opsional",
-    hariKerja: "opsional",
+    jamOperasional: "Fleksibel",
+    hariKerja: "Fleksibel",
     keteranganTambahan: "-",
     foto: fotoDefault,
   },
@@ -537,7 +537,7 @@ const dataUMKM = [
     medsosMarketplace: "-",
     jamOperasional: "07.00-15.00",
     hariKerja: "Senin - Minggu",
-    keteranganTambahan: "Punya mesin",
+    keteranganTambahan: "Pembuatan menggunakan mesin",
     foto: fotoDefault,
   },
   {
@@ -571,7 +571,7 @@ const dataUMKM = [
     medsosMarketplace: "-",
     jamOperasional: "08.00-16.00",
     hariKerja: "Senin - Minggu",
-    keteranganTambahan: "Gobang kalo ada event",
+    keteranganTambahan: "Membuat gobang kalo ada event",
     foto: [
       "/assets/img/MULYONO/1.jpg",
     ],
@@ -590,7 +590,7 @@ const dataUMKM = [
     medsosMarketplace: "-",
     jamOperasional: "07.00-17.00",
     hariKerja: "4 hari sekali",
-    keteranganTambahan: "Pemasaran pasar batur",
+    keteranganTambahan: "Pemasaran di Pasar Batur",
     foto: fotoDefault,
   },
   {
@@ -607,7 +607,7 @@ const dataUMKM = [
     medsosMarketplace: "tiktok : @agussbur56",
     jamOperasional: "06.00-16.00",
     hariKerja: "-",
-    keteranganTambahan: "Buka jika ada pesanan",
+    keteranganTambahan: "Buka dan produksi jika ada pesanan",
     foto: [
       "/assets/img/AGUS_SUBUR/1.jpg",
     ],
@@ -706,7 +706,7 @@ const dataUMKM = [
     medsosMarketplace: "-",
     jamOperasional: "08.00-16.00",
     hariKerja: "Senin - Minggu",
-    keteranganTambahan: "Dipasar",
+    keteranganTambahan: "-",
     foto: [
       "/assets/img/AHMAD_SOLIHIN/1.webp", 
     ],
