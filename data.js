@@ -301,11 +301,11 @@ const dataUMKM = [
     keteranganTambahan:
       "Sesuai pesanan, bahan- bahannya impor dari luar negeri",
     foto: [
-      "assets/img/BASUKI/2.jpg",
-      "assets/img/BASUKI/3.jpg",
-      "assets/img/BASUKI/4.jpg",
-      "assets/img/BASUKI/5.jpg",
-      "assets/img/BASUKI/6.jpg",
+      "assets/img/BASUKI/2.webp",
+      "assets/img/BASUKI/3.webp",
+      "assets/img/BASUKI/4.webp",
+      "assets/img/BASUKI/5.webp",
+      "assets/img/BASUKI/6.webp",
     ],
   },
   {
