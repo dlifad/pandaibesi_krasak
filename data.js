@@ -19,7 +19,7 @@ const dataUMKM = [
     hariKerja: "-",
     keteranganTambahan: "-",
     foto: [
-      "assets/img/IRVAN/1.jpg", 
+      "assets/img/IRVAN/1.webp", 
     ],
   },
   {
@@ -39,11 +39,11 @@ const dataUMKM = [
     keteranganTambahan:
       "Produksi alat pertanian, penjualannya ada yang jemput, yang bantu masarin anaknya",
     foto: [
-      "assets/img/A_ROZAK/1.jpeg",
-      "assets/img/A_ROZAK/2.jpeg",
-      "assets/img/A_ROZAK/3.jpeg",
-      "assets/img/A_ROZAK/5.jpg",
-      "assets/img/A_ROZAK/6.jpg",
+      "assets/img/A_ROZAK/1.webp",
+      "assets/img/A_ROZAK/2.webp",
+      "assets/img/A_ROZAK/3.webp",
+      "assets/img/A_ROZAK/5.webp",
+      "assets/img/A_ROZAK/6.webp",
     ],
   },
   {
@@ -63,10 +63,10 @@ const dataUMKM = [
     keteranganTambahan:
       "Komplit, bisa request pesanan, penjualan ke petani langsung",
     foto: [
-      "assets/img/MUHAMAD_MUHSON/1.jpg",
-      "assets/img/MUHAMAD_MUHSON/2.jpg",
-      "assets/img/MUHAMAD_MUHSON/3.jpg",
-      "assets/img/MUHAMAD_MUHSON/4.jpg",
+      "assets/img/MUHAMAD_MUHSON/1.webp",
+      "assets/img/MUHAMAD_MUHSON/2.webp",
+      "assets/img/MUHAMAD_MUHSON/3.webp",
+      "assets/img/MUHAMAD_MUHSON/4.webp",
     ],
   },
   {
@@ -85,10 +85,10 @@ const dataUMKM = [
     hariKerja: "Senin - Minggu",
     keteranganTambahan: "Pasar garung, bahan baku dari besi dan drum bekas",
     foto: [
-      "assets/img/WAHID_SALMAN/1.jpeg",
-      "assets/img/WAHID_SALMAN/2.jpeg",
-      "assets/img/WAHID_SALMAN/3.jpg",
-      "assets/img/WAHID_SALMAN/4.jpg",
+      "assets/img/WAHID_SALMAN/1.webp",
+      "assets/img/WAHID_SALMAN/2.webp",
+      "assets/img/WAHID_SALMAN/3.webp",
+      "assets/img/WAHID_SALMAN/4.webp",
     ],
   },
   {
@@ -197,10 +197,10 @@ const dataUMKM = [
     hariKerja: "Senin - Minggu",
     keteranganTambahan: "-",
     foto: [
-      "assets/img/ARMAN/2.jpg",
-      "assets/img/ARMAN/3.jpg",
-      "assets/img/ARMAN/4.jpg",
-      "assets/img/ARMAN/5.jpg",
+      "assets/img/ARMAN/2.webp",
+      "assets/img/ARMAN/3.webp",
+      "assets/img/ARMAN/4.webp",
+      "assets/img/ARMAN/5.webp",
     ],
   },
   {
@@ -259,7 +259,7 @@ const dataUMKM = [
     keteranganTambahan:
       "Udah pakai mesin, ngider-ngiderin sendiri, langsung telfon, pesenannya sesuai request",
     foto: [
-      "assets/img/MUCHSON/1.jpg",
+      "assets/img/MUCHSON/1.webp",
     ],
   },
   {
@@ -278,10 +278,10 @@ const dataUMKM = [
     hariKerja: "Senin - Minggu",
     keteranganTambahan: "Sebulan sekali ke jawa barat",
     foto: [
-      "assets/img/MUHSENG/1.jpg",
-      "assets/img/MUHSENG/3.jpg",
-      "assets/img/MUHSENG/4.jpg",
-      "assets/img/MUHSENG/5.jpg",
+      "assets/img/MUHSENG/1.webp",
+      "assets/img/MUHSENG/3.webp",
+      "assets/img/MUHSENG/4.webp",
+      "assets/img/MUHSENG/5.webp",
     ],
   },
   {
@@ -325,11 +325,11 @@ const dataUMKM = [
     keteranganTambahan:
       "Ngiderin sendiri ke pasar semarang, banyuwangi, jawa timur",
     foto: [
-      "assets/img/SUBHAN/1.jpg",
-      "assets/img/SUBHAN/2.jpg",
-      "assets/img/SUBHAN/3.jpg",
-      "assets/img/SUBHAN/4.jpg",
-      "assets/img/SUBHAN/5.jpg",
+      "assets/img/SUBHAN/1.webp",
+      "assets/img/SUBHAN/2.webp",
+      "assets/img/SUBHAN/3.webp",
+      "assets/img/SUBHAN/4.webp",
+      "assets/img/SUBHAN/5.webp",
     ],
   },
   {
@@ -349,9 +349,9 @@ const dataUMKM = [
     keteranganTambahan:
       "Pakai manual, pemasarannya online tapi kenak blokir terus karena menjual senjata tajam juga kadang ada yg minta refund dan barang yg dikembalikan bekas",
     foto: [
-      "assets/img/MUJIB/1.jpg",
-      "assets/img/MUJIB/2.jpg",
-      "assets/img/MUJIB/3.jpg",
+      "assets/img/MUJIB/1.webp",
+      "assets/img/MUJIB/2.webp",
+      "assets/img/MUJIB/3.webp",
     ],
   },
   {
@@ -389,9 +389,9 @@ const dataUMKM = [
     keteranganTambahan:
       "Pesenannya ada di sekitar jateng kayak tulungagung, temanggung, magelang, barangnya impor dari luar negeri",
     foto: [
-      "assets/img/NOVI/1.jpg",
-      "assets/img/NOVI/2.jpg",
-      "assets/img/NOVI/3.jpg",
+      "assets/img/NOVI/1.webp",
+      "assets/img/NOVI/2.webp",
+      "assets/img/NOVI/3.webp",
     ],
   },
   {
@@ -410,7 +410,7 @@ const dataUMKM = [
     hariKerja: "Senin - Minggu",
     keteranganTambahan: "Nganggur kalau gak ada order masuk",
     foto: [
-      "assets/img/AMILIN/1.jpg", 
+      "assets/img/AMILIN/1.webp", 
     ],
   },
   {
@@ -463,7 +463,7 @@ const dataUMKM = [
     hariKerja: "-",
     keteranganTambahan: "-",
     foto: [
-      "assets/img/NGAZIZ/1.jpg", 
+      "assets/img/NGAZIZ/1.webp", 
     ],
   },
   {
@@ -482,7 +482,7 @@ const dataUMKM = [
     hariKerja: "-",
     keteranganTambahan: "-",
     foto: [
-      "assets/img/AHSIN/1.jpg", 
+      "assets/img/AHSIN/1.webp", 
     ],
   },
   {
@@ -520,7 +520,7 @@ const dataUMKM = [
     hariKerja: "Senin - Minggu",
     keteranganTambahan: "-",
     foto: [
-      "assets/img/AHMAD_LATIF/1.jpg",
+      "assets/img/AHMAD_LATIF/1.webp",
     ]
   },
   {
@@ -664,9 +664,9 @@ const dataUMKM = [
     hariKerja: "Senin - Minggu",
     keteranganTambahan: "-",
     foto: [
-      "assets/img/MUSBAH/1.jpg",
-      "assets/img/MUSBAH/3.jpg",
-      "assets/img/MUSBAH/4.jpg",
+      "assets/img/MUSBAH/1.webp",
+      "assets/img/MUSBAH/3.webp",
+      "assets/img/MUSBAH/4.webp",
     ],
   },
   {
@@ -685,12 +685,11 @@ const dataUMKM = [
     hariKerja: "Senin - Minggu",
     keteranganTambahan: "-",
     foto: [
-      "assets/img/MUTOAN/1.jpg",
-      "assets/img/MUTOAN/3.jpg",
-      "assets/img/MUTOAN/4.jpg",
-      "assets/img/MUTOAN/5.jpg",
-      "assets/img/MUTOAN/6.jpg",
-      "assets/img/MUTOAN/7.jpg",
+      "assets/img/MUTOAN/3.webp",
+      "assets/img/MUTOAN/4.webp",
+      "assets/img/MUTOAN/5.webp",
+      "assets/img/MUTOAN/6.webp",
+      "assets/img/MUTOAN/7.webp",
     ],
   },
   {
@@ -709,7 +708,7 @@ const dataUMKM = [
     hariKerja: "Senin - Minggu",
     keteranganTambahan: "Dipasar",
     foto: [
-      "assets/img/AHMAD_SOLIHIN/1.jpg", 
+      "assets/img/AHMAD_SOLIHIN/1.webp", 
     ],
   },
   {
