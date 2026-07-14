@@ -42,7 +42,6 @@ const dataUMKM = [
       "assets/img/A_ROZAK/1.jpeg",
       "assets/img/A_ROZAK/2.jpeg",
       "assets/img/A_ROZAK/3.jpeg",
-      "assets/img/A_ROZAK/4.mp4",
       "assets/img/A_ROZAK/5.jpg",
       "assets/img/A_ROZAK/6.jpg",
     ],
@@ -110,7 +109,6 @@ const dataUMKM = [
     foto: [
       "assets/img/MUSMAN/1.jpeg",
       "assets/img/MUSMAN/2.jpeg",
-      "assets/img/MUSMAN/3.mp4",
     ]
   },
   {
@@ -199,12 +197,10 @@ const dataUMKM = [
     hariKerja: "Senin - Minggu",
     keteranganTambahan: "-",
     foto: [
-      "assets/img/ARMAN/1.mov", 
       "assets/img/ARMAN/2.jpg",
       "assets/img/ARMAN/3.jpg",
       "assets/img/ARMAN/4.jpg",
       "assets/img/ARMAN/5.jpg",
-      "assets/img/ARMAN/6.mov"
     ],
   },
   {
@@ -264,8 +260,6 @@ const dataUMKM = [
       "Udah pakai mesin, ngider-ngiderin sendiri, langsung telfon, pesenannya sesuai request",
     foto: [
       "assets/img/MUCHSON/1.jpg",
-      "assets/img/MUCHSON/2.jpg",
-      "assets/img/MUCHSON/3.jpg",
     ],
   },
   {
@@ -285,7 +279,6 @@ const dataUMKM = [
     keteranganTambahan: "Sebulan sekali ke jawa barat",
     foto: [
       "assets/img/MUHSENG/1.jpg",
-      "assets/img/MUHSENG/2.mov",
       "assets/img/MUHSENG/3.jpg",
       "assets/img/MUHSENG/4.jpg",
       "assets/img/MUHSENG/5.jpg",
@@ -308,7 +301,6 @@ const dataUMKM = [
     keteranganTambahan:
       "Sesuai pesanan, bahan- bahannya impor dari luar negeri",
     foto: [
-      "assets/img/BASUKI/1.mov",
       "assets/img/BASUKI/2.jpg",
       "assets/img/BASUKI/3.jpg",
       "assets/img/BASUKI/4.jpg",
@@ -673,7 +665,6 @@ const dataUMKM = [
     keteranganTambahan: "-",
     foto: [
       "assets/img/MUSBAH/1.jpg",
-      "assets/img/MUSBAH/2.mov",
       "assets/img/MUSBAH/3.jpg",
       "assets/img/MUSBAH/4.jpg",
     ],
@@ -695,7 +686,6 @@ const dataUMKM = [
     keteranganTambahan: "-",
     foto: [
       "assets/img/MUTOAN/1.jpg",
-      "assets/img/MUTOAN/2.mov",
       "assets/img/MUTOAN/3.jpg",
       "assets/img/MUTOAN/4.jpg",
       "assets/img/MUTOAN/5.jpg",
