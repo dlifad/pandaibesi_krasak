@@ -236,10 +236,10 @@ const dataUMKM = [
     hariKerja: "5-7 hari",
     keteranganTambahan: "-",
     foto: [
-      "assets/img/ZAENUN/1.jpg",
-      "assets/img/ZAENUN/2.jpg",
-      "assets/img/ZAENUN/3.jpg",
-      "assets/img/ZAENUN/4.jpg",
+      "assets/img/ZAENUN/1.webp",
+      "assets/img/ZAENUN/2.webp",
+      "assets/img/ZAENUN/3.webp",
+      "assets/img/ZAENUN/4.webp",
     ],
   },
   {
