@@ -12,35 +12,10 @@ function getJenisProduksiText(data) {
 }
 
 const mapImage = document.getElementById("mapImage");
-const mapLightbox = document.getElementById("mapLightbox");
-const mapLightboxImage = document.getElementById("mapLightboxImage");
-const mapLightboxClose = document.getElementById("mapLightboxClose");
 
-if (mapImage && mapLightbox && mapLightboxImage && mapLightboxClose) {
+if (mapImage) {
   mapImage.addEventListener("click", function () {
-    mapLightboxImage.src = this.src;
-    mapLightbox.classList.add("show");
-    document.body.style.overflow = "hidden";
-  });
-
-  function closeMapLightbox() {
-    mapLightbox.classList.remove("show");
-    mapLightboxImage.src = "";
-    document.body.style.overflow = "";
-  }
-
-  mapLightboxClose.addEventListener("click", closeMapLightbox);
-
-  mapLightbox.addEventListener("click", function (e) {
-    if (e.target === mapLightbox) {
-      closeMapLightbox();
-    }
-  });
-
-  document.addEventListener("keydown", function (e) {
-    if (e.key === "Escape") {
-      closeMapLightbox();
-    }
+    window.open("assets/peta/peta_pandai_besi.pdf", "_blank");
   });
 }
 
