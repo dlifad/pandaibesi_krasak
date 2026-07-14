@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/detail/:id",
-      "destination": "/detail.html?id=:id"
+      "destination": "/detail?id=:id"
     },
     {
       "source": "/peta-pandai-besi",
