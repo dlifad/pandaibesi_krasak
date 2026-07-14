@@ -18,6 +18,10 @@ const icons = {
 };
 
 function getIdFromURL() {
+  const path = window.location.pathname;
+  const match = path.match(/\/detail\/(\d+)/);
+  if (match) return Number(match[1]);
+
   const params = new URLSearchParams(window.location.search);
   return Number(params.get("id"));
 }
@@ -45,7 +49,7 @@ function renderDetail() {
       <div class="not-found">
         <h1>Data Pandai Besi tidak ditemukan</h1>
         <p>Data dengan ID tersebut belum tersedia.</p>
-        <a href="index.html#daftar-umkm" class="btn">Kembali ke Daftar Pandai Besi</a>
+        <a href="/#daftar-umkm" class="btn">Kembali ke Daftar Pandai Besi</a>
       </div>
     `;
     return;

@@ -1,5 +1,10 @@
 {
+  "cleanUrls": true,
   "rewrites": [
+    {
+      "source": "/detail/:id",
+      "destination": "/detail.html?id=:id"
+    },
     {
       "source": "/peta-pandai-besi",
       "destination": "/assets/peta/peta_pandai_besi.pdf"

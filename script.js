@@ -66,7 +66,7 @@ function renderUMKMList(keyword = "") {
       </div>
 
       <div class="umkm-list-action">
-        <a href="detail.html?id=${pandaiBesi.id}" class="btn-card">Lihat Detail</a>
+        <a href="/detail/${pandaiBesi.id}" class="btn-card">Lihat Detail</a>
       </div>
     `;
 
