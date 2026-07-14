@@ -80,7 +80,7 @@ const dataUMKM = [
     rw: "02",
     koordinat: "-7.322554,109.916163",
     nomorHP: "081328478122",
-    medsosMarketplace: "whatsapp",
+    medsosMarketplace: "Whatsapp",
     jamOperasional: "08.00 - 16.00",
     hariKerja: "Senin - Minggu",
     keteranganTambahan: "Penjualan di Pasar Garung, bahan baku dari besi dan drum bekas",

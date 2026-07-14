@@ -38,6 +38,38 @@ function formatNomorWA(nomor) {
   return hasil;
 }
 
+function renderMedsosMarketplace(value) {
+  if (!value || value === "-") return "-";
+
+  const text = String(value).trim();
+  const match = text.match(/^(.*?)\s*:\s*\((https?:\/\/[^)]+)\)$/i);
+
+  if (!match) return text;
+
+  const rawLabel = match[1].trim();
+  const url = match[2].trim();
+
+  const labelMap = {
+    wa: "WhatsApp",
+    whatsapp: "WhatsApp",
+    fb: "Facebook",
+    facebook: "Facebook",
+    ig: "Instagram",
+    instagram: "Instagram",
+    shopee: "Shopee",
+    tokopedia: "Tokopedia",
+    youtube: "YouTube",
+    tiktok: "TikTok",
+  };
+
+  const key = rawLabel.toLowerCase();
+  const label =
+    labelMap[key] ||
+    rawLabel.charAt(0).toUpperCase() + rawLabel.slice(1);
+
+  return `<a href="${url}" target="_blank" rel="noopener noreferrer">${label}</a>`;
+}
+
 function renderDetail() {
   const id = getIdFromURL();
   const pandaiBesi = dataUMKM.find((item) => item.id === id);
@@ -78,7 +110,7 @@ function renderDetail() {
 
   const fotoList = Array.isArray(pandaiBesi.foto)
     ? pandaiBesi.foto
-    : [pandaiBesi.foto || "assets/img/umkm-placeholder.svg"];
+    : [pandaiBesi.foto || "/assets/img/umkm-placeholder.webp"];
 
   const punyaBanyakFoto = fotoList.length > 1;
 
@@ -148,7 +180,7 @@ function renderDetail() {
         <p class="detail-eyebrow">Kontak</p>
         <dl class="detail-facts">
           <div><dt>Nomor HP</dt><dd>${pandaiBesi.nomorHP || "-"}</dd></div>
-          <div><dt>Medsos / Marketplace</dt><dd>${pandaiBesi.medsosMarketplace || "-"}</dd></div>
+          <div><dt>Medsos / Marketplace</dt><dd>${renderMedsosMarketplace(pandaiBesi.medsosMarketplace)}</dd></div>
         </dl>
       </section>
 
